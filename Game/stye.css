@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+*{
+
+  
+}
+
+*{  
+   
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik Marker Hatch', cursive;
+    text-align: center; 
+    background-image: url(./123.jpg);
+ 
+}
+
+header{
+    font-size: 30px;
+    padding: 40px;
+    color:darkred;
+   
+}
+  
+main{
+    color: rgb(19, 135, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    padding: 40px;
+    font-size: 25px;
+
+}
+.menu {
+   margin: auto;
+}
+
+.btn{
+    background-color: rgb(47, 47, 47);
+    color: rgb(187, 176, 23);
+    margin: 20px auto;
+    padding: 8px;
+    width: 250px;
+border-radius: 5px ;
+cursor: pointer;
+transition: 0.2;
+    
+}
+.btn:hover{
+  scale: 1.1;
+}
