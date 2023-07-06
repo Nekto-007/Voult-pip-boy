@@ -47,4 +47,23 @@ transition: 0.2;
 }
 .btn:hover{
   scale: 1.1;
+  
+    padding:10px;
+
+  }
+  .game-header {
+    display: flex;
+    align-items: center;
+  }
+  .reset {
+    width: 150px;
+}
+
+.lvl{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.null{
+    padding-top: 0;
 }
