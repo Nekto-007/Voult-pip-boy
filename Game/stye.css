@@ -10,9 +10,17 @@
     margin: 0;
     font-family: 'Rubik Marker Hatch', cursive;
     text-align: center; 
-    background-image: url(./123.jpg);
+    
  
 }
+
+body{
+    background-image: url(./img/fon.jpg);
+    background-size: cover;
+
+}
+
+
 
 header{
     font-size: 30px;
@@ -22,7 +30,7 @@ header{
 }
   
 main{
-    color: rgb(19, 135, 6);
+    color: rgb(207, 218, 56);
     display: flex;
     flex-direction: column;
     justify-content:  center;
@@ -35,8 +43,8 @@ main{
 }
 
 .btn{
-    background-color: rgb(47, 47, 47);
-    color: rgb(187, 176, 23);
+    background-color: rgb(66, 63, 55);
+    color: rgb(83, 187, 23);
     margin: 20px auto;
     padding: 8px;
     width: 250px;
@@ -66,4 +74,25 @@ transition: 0.2;
 
 .null{
     padding-top: 0;
+}
+.game-cards{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+.card{
+    width: 160px;
+    height: 270px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position:center;
+    background-color:white;
+}
+
+.rotate{
+    transform: perspective(160px) rotatey(180deg);
+    transition: 0.5s;
+
 }
