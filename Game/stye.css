@@ -89,6 +89,7 @@ transition: 0.2;
     background-size: cover;
     background-position:center;
     background-color:white;
+    transition: 0.5;
 }
 
 .rotate{
